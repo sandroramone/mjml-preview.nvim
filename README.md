@@ -8,7 +8,11 @@ Mjml is hot reloaded so you'll always see the most updated render.
 A minimum version of NodeJs 14 is required to run this plugin.
 
 ```lua
-use { "ec965/mjml-preview.nvim", ft = { "mjml" }, run = "cd app && npm install" }
+use {
+  "sandroramone/mjml-preview.nvim",
+  ft = { "mjml" },
+  build = "cd app && npm install"
+}
 ```
 
 ## Commands
